@@ -39,17 +39,21 @@ You're reading it! and here is a link to my [project code](https://github.com/ud
 I used the pandas library to calculate summary statistics of the traffic
 signs data set:
 
-* The size of training set is ?
-* The size of the validation set is ?
-* The size of test set is ?
-* The shape of a traffic sign image is ?
-* The number of unique classes/labels in the data set is ?
+* The size of training set is 34799
+* The size of the validation set is 4410
+* The size of test set is 12630
+* The shape of a traffic sign image is (32, 32)
+* The number of unique classes/labels in the data set is 43
 
 ####2. Include an exploratory visualization of the dataset.
 
-Here is an exploratory visualization of the data set. It is a bar chart showing how the data ...
+Here is an exploratory visualization of the data set. I include histogram distributions of number of examples per class. It is clearly evident that the distributions are not equal, which could mean that the network will be better at recognising certain classes compared to others.
 
-![alt text][image1]
+[train_examples_hist]: ./images/train_examples_distribution.png "Train examples distribution"
+
+[valid_examples_hist]: ./images/valid_examples_distribution.png "Validation examples distribution"
+
+[test_examples_hist]: ./images/test_examples_distribution.png "Test examples distribution"
 
 ###Design and Test a Model Architecture
 
