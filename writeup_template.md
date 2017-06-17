@@ -12,7 +12,9 @@ The goals / steps of this project are the following:
 
 [//]: # (Image References)
 
-[image1]: ./examples/visualization.jpg "Visualization"
+[train_examples_hist]: ./images/train_examples_histogram.png "Train examples distribution"
+[valid_examples_hist]: ./images/valid_examples_histogram.png "Validation examples distribution"
+[test_examples_hist]: ./images/test_examples_histogram.png "Test examples distribution"
 [image2]: ./examples/grayscale.jpg "Grayscaling"
 [image3]: ./examples/random_noise.jpg "Random Noise"
 [image4]: ./examples/placeholder.png "Traffic Sign 1"
@@ -20,12 +22,10 @@ The goals / steps of this project are the following:
 [image6]: ./examples/placeholder.png "Traffic Sign 3"
 [image7]: ./examples/placeholder.png "Traffic Sign 4"
 [image8]: ./examples/placeholder.png "Traffic Sign 5"
-[train_examples_hist]: ./images/train_examples_histogram.png "Train examples distribution"
-[valid_examples_hist]: ./images/valid_examples_histogram.png "Validation examples distribution"
-[test_examples_hist]: ./images/test_examples_histogram.png "Test examples distribution"
+
 
 ## Rubric Points
-###Here I will consider the [rubric points](https://review.udacity.com/#!/rubrics/481/view) individually and describe how I addressed each point in my implementation.  
+### Here I will consider the [rubric points](https://review.udacity.com/#!/rubrics/481/view) individually and describe how I addressed each point in my implementation.  
 
 ---
 ### Writeup / README
@@ -51,7 +51,9 @@ signs data set:
 
 Here is an exploratory visualization of the data set. I include histogram distributions of number of examples per class. It is clearly evident that the distributions are not equal, which could mean that the network will be better at recognising certain classes compared to others.
 
-![alt text][image2]
+![alt text][train_examples_hist]
+![alt text][valid_examples_hist]
+![alt text][test_examples_hist]
 
 ### Design and Test a Model Architecture
 
@@ -61,9 +63,7 @@ As a first step, I decided to convert the images to grayscale because ...
 
 Here is an example of a traffic sign image before and after grayscaling.
 
-![alt text][train_examples_hist]
-![alt text][valid_examples_hist]
-![alt text][test_examples_hist]
+![alt text][image2]
 
 As a last step, I normalized the image data because ...
 
