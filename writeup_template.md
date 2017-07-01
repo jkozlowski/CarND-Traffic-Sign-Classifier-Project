@@ -15,11 +15,11 @@ The goals / steps of this project are the following:
 [train_examples_hist]: ./images/train_examples_histogram.png "Train examples distribution"
 [valid_examples_hist]: ./images/valid_examples_histogram.png "Validation examples distribution"
 [test_examples_hist]: ./images/test_examples_histogram.png "Test examples distribution"
-[image4]: ./examples/placeholder.png "Traffic Sign 1"
-[image5]: ./examples/placeholder.png "Traffic Sign 2"
-[image6]: ./examples/placeholder.png "Traffic Sign 3"
-[image7]: ./examples/placeholder.png "Traffic Sign 4"
-[image8]: ./examples/placeholder.png "Traffic Sign 5"
+[image4]: ./images/sign1.jpg "Traffic Sign 1"
+[image5]: ./images/sign2.jpg "Traffic Sign 2"
+[image6]: ./images/sign3.jpg "Traffic Sign 3"
+[image7]: ./images/sign4.jpg "Traffic Sign 4"
+[image8]: ./images/sign5.jpg "Traffic Sign 5"
 
 
 ## Rubric Points
@@ -121,10 +121,10 @@ If a well known architecture was chosen:
 
 Here are five German traffic signs that I found on the web:
 
-![alt text][image4] ![alt text][image5] ![alt text][image6] 
-![alt text][image7] ![alt text][image8]
+![Sign 1][image4] ![Sign 2][image5] ![Sign 3][image6] 
+![Sign 4][image7] ![Sign 5][image8]
 
-The first image might be difficult to classify because ...
+Sign 4 has a watermark on it, so it might be difficult to classify. Sign 5 is in a weird orientation, so might also throw the model off.
 
 #### 2. Discuss the model's predictions on these new traffic signs and compare the results to predicting on the test set. At a minimum, discuss what the predictions were, the accuracy on these new predictions, and compare the accuracy to the accuracy on the test set (OPTIONAL: Discuss the results in more detail as described in the "Stand Out Suggestions" part of the rubric).
 
@@ -132,11 +132,11 @@ Here are the results of the prediction:
 
 | Image			        |     Prediction	        					| 
 |:---------------------:|:---------------------------------------------:| 
-| Stop Sign      		| Stop sign   									| 
-| U-turn     			| U-turn 										|
-| Yield					| Yield											|
-| 100 km/h	      		| Bumpy Road					 				|
-| Slippery Road			| Slippery Road      							|
+| 60 km/h (3)     		|    									| 
+| Yield (13)    			|  										|
+| No entry (17)					| 											|
+| Pedestrians (27)	      		| 					 				|
+| Priority road (12)			|       							|
 
 
 The model was able to correctly guess 4 of the 5 traffic signs, which gives an accuracy of 80%. This compares favorably to the accuracy on the test set of ...
