@@ -124,7 +124,7 @@ Here are five German traffic signs that I found on the web:
 ![Sign 1][image4] ![Sign 2][image5] ![Sign 3][image6] 
 ![Sign 4][image7] ![Sign 5][image8]
 
-Sign 4 has a watermark on it, so it might be difficult to classify. Sign 5 is in a weird orientation, so might also throw the model off.
+Sign 4 has a watermark on it, so it might be difficult to classify. Sign 5 is in a weird orientation, so might also throw the model off. All the images are very poor quality, because they were cropped and scaled using an online image editor.
 
 #### 2. Discuss the model's predictions on these new traffic signs and compare the results to predicting on the test set. At a minimum, discuss what the predictions were, the accuracy on these new predictions, and compare the accuracy to the accuracy on the test set (OPTIONAL: Discuss the results in more detail as described in the "Stand Out Suggestions" part of the rubric).
 
